@@ -1,0 +1,52 @@
+@media (max-width: 1024px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    .resultados-pesquisa {
+        width: 30rem;
+    }
+
+    footer {
+        font-size: 0.9rem;
+        padding: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1.85rem;
+    }
+
+    section input {
+        width: 20rem;
+    }
+
+    .resultados-pesquisa {
+        width: 25rem;
+    }
+
+    footer {
+        font-size: 0.8rem;
+        padding: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.3rem;
+    }
+
+    section input {
+        width: 15rem;
+    }
+
+    .resultados-pesquisa {
+        width: 20rem;
+    }
+
+    footer {
+        font-size: 0.7rem;
+        padding: 8px;
+    }
+}
