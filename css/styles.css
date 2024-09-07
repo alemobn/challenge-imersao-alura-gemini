@@ -83,6 +83,23 @@ section button:hover {
     border: 2px solid var(--cor-verde);
 }
 
+.resultados-pesquisa::-webkit-scrollbar {
+    width: 12px;
+}
+
+.resultados-pesquisa::-webkit-scrollbar-track {
+    background: var(--cor-fundo);
+}
+
+.resultados-pesquisa::-webkit-scrollbar-thumb {
+    background: var(--cor-borda);
+    border-radius: 6px;
+}
+
+.resultados-pesquisa::-webkit-scrollbar-thumb:hover {
+    background: var(--cor-borda);
+}
+
 .item-resultado {
     background: var(--cor-borda-item);
     border-radius: 0.5rem;
